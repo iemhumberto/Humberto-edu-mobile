@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import data from './Data';
 
 class CardsHome extends Component {
@@ -8,21 +9,23 @@ class CardsHome extends Component {
             .map(card => {
                 return (
                     <div className="column is-mobile" key={card.id}>
-                        <div
-                            style={{
-                            'color': 'gray',
-                            'backgroundImage': `url(${card.BackImage})`
-                        }}
-                            className="card  card-home">
+                        <Link to={card.url}>
                             <div
                                 style={{
-                                'color': 'white'
-                            }}className="title">{card.title}</div>
-                            <div
-                                style={{
-                                'color': 'white'
-                            }}className="content">{card.description}</div>
-                        </div>
+                                'color': 'gray',
+                                'backgroundImage': `url(${card.BackImage})`
+                            }}
+                                className="card  card-home">
+                                <div
+                                    style={{
+                                    'color': 'white'
+                                }}className="title">{card.title}</div>
+                                <div
+                                    style={{
+                                    'color': 'white'
+                                }}className="content">{card.description}</div>
+                            </div>
+                        </Link>
                     </div>
                 );
             })

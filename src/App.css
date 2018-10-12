@@ -4,8 +4,8 @@
 .body,
 html {
     font-family: 'Quicksand', sans-serif;
-    margin: 0% !important;
-    padding: 0% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .card-home {
@@ -20,4 +20,12 @@ html {
     background-color: rgb(100, 100, 100) !important;
     background-blend-mode: soft-light;
 }
+.agenda-informativa-title {
+    background: #34e89e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}

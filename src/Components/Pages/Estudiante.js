@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import '../../App.css';
-
 /*Import de Data tools*/
 import data from '../Requests/ToolsEst';
-
+/*Imports de elementos*/
+const IntroImage = 'https://res.cloudinary.com/cristiansam/image/upload/v1539343423/Mobile-Humberto-' +
+        'ui/Herramientas-tareas-Humberto-Munoz-Ordonez.svg';
+const EstInsignia = 'https://res.cloudinary.com/cristiansam/image/upload/v1539346056/Mobile-Humberto-' +
+        'ui/student.svg';
 class Estudiante extends Component {
+
     tools() {
         return data
             .tools
@@ -74,7 +78,7 @@ class Estudiante extends Component {
                     }}
                         className="title agenda-informativa-title">Agenda informativa</div>
                 </div>
-                <div className="message is-info">
+                <div className="message is-primary">
                     <div className="message-body">
                         <p>Elija su jornada académica para ver más.</p>
                     </div>
@@ -104,6 +108,42 @@ class Estudiante extends Component {
                             <p>Jornada Tarde</p>
                         </div>
                     </Link>
+                </div>
+                <div className="column is mobile">
+                    <div className="content has-text-centered">
+                        <div className="title">Estudiante insignia</div>
+                        <div className="column is-mobile">
+                            <div
+                                style={{
+                                'borderRadius': '5px'
+                            }}
+                                className="card">
+                                <div className="card-media">
+                                    <img src={EstInsignia} alt="Estudiante insignia"/>
+                                    <div className="column">
+                                        <div className="tag is-info">Grado</div>
+                                    </div>
+                                    <div className="column">
+                                        <div className="tag is-info">Jornada</div>
+                                    </div>
+                                    <div className="column">
+                                        <div className="tag is-info">Promedio</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="column is-mobile">
+                    <div className="content has-text-centered">
+                        <div className="title">Herramientas online</div>
+                    </div>
+                    <img src={IntroImage} alt="imagen intro de herramientas"/>
+                    <div className="content has-text-centered">
+                        <p>Herramientas online de uso libre. Organice su stack de trabajo académico.
+                            Haga buenas presentaciones.
+                        </p>
+                    </div>
                 </div>
                 <div>
                     {this.tools()}

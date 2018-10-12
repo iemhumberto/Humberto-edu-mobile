@@ -29,3 +29,39 @@ html {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.title-principal {
+    display: flex;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #6441A5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*Botón docentes insignia*/
+.b-docentes-insignia {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: #6441A5;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*Cards tools-doc*/
+.tools-doc {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10px;
+}

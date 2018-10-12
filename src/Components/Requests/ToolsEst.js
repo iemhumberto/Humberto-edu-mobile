@@ -23,7 +23,8 @@ export default {
             ImageUrl: 'https://mk0intowindows84fvao.kinstacdn.com/wp-content/uploads/2017/04/delete-Mic' +
                     'rosfot-To-Do-account_thumb.png',
             Category: 'Productividad',
-            description: 'Diseño de presentaciones grupales y a distancia.',
+            description: 'Desde trabajar hasta jugar, To-Do es la forma más sencilla de hacerlo todo, todo' +
+                    's los días.',
             link: 'https://todo.microsoft.com/es-es',
             color: '#ffdd57'
         }, {
@@ -31,7 +32,8 @@ export default {
             title: 'Trello',
             ImageUrl: 'https://png.icons8.com/color/1600/trello.png',
             Category: 'Productividad',
-            description: 'Trello es la manera gratuita, flexible y visual de organizarlo todo con cualquiera.',
+            description: 'Trello es la manera gratuita, flexible y visual de organizarlo todo con cualquie' +
+                    'ra.',
             link: 'https://trello.com/',
             color: '#ffdd57'
         }, {

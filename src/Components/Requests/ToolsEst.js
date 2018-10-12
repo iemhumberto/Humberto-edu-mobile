@@ -31,7 +31,7 @@ export default {
             title: 'Trello',
             ImageUrl: 'https://png.icons8.com/color/1600/trello.png',
             Category: 'Productividad',
-            description: 'Organize su calendario. Tareas. Haga todo estructurado. Fácil.',
+            description: 'Trello es la manera gratuita, flexible y visual de organizarlo todo con cualquiera.',
             link: 'https://trello.com/',
             color: '#ffdd57'
         }, {

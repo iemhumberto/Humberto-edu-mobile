@@ -26,6 +26,7 @@ export default {
             title: 'Superate 20',
             imageUrl: 'http://superate20.edu.co/_/images/logo.png',
             url: 'http://superate.edu.co/'
+
         }
     ]
 }

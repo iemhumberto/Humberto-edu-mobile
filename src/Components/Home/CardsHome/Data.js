@@ -20,14 +20,7 @@ export default {
                     's=tinysrgb&dpr=2&h=650&w=940',
             title: 'Visitante',
             url: '/visitante',
-            description: 'Ver notas de sus hijos, y enterarse de nuevos eventos.'
-        }, {
-            id: 4,
-            BackImage: 'https://images.pexels.com/photos/1157557/pexels-photo-1157557.jpeg?auto=compress' +
-                    '&cs=tinysrgb&dpr=2&h=650&w=940',
-            title: 'Te puede interesar',
-            url: '/mi-colegio',
-            description: 'Galería fotográfica de la Institución. Estudiantes insignia. Casos de éxito.'
+            description: 'Ver notas de sus hijos, y enterarse de nuevos eventos, sesión fotográfica y más!'
         }
     ]
 }

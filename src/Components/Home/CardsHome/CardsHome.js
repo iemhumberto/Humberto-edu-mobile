@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import data from './Data';
 
+/*Imports de clases del Layout Home*/
+import Apps from '../../Apps/Apps';
+
 class CardsHome extends Component {
     cards() {
         return data
@@ -36,6 +39,7 @@ class CardsHome extends Component {
                 <div>
                     {this.cards()}
                 </div>
+                <Apps/>
             </section>
         );
     }

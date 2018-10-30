@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 
 class Footer extends Component {
+    state = {
+        version: '1.0 Beta'
+    }
     render() {
         return (
             <section
@@ -30,7 +33,7 @@ class Footer extends Component {
                     2018
                 </div>
                 <div className="content has-text-centered">
-                    Versión 0.35 Beta
+                {this.state.version}
                 </div>
             </section>
         );

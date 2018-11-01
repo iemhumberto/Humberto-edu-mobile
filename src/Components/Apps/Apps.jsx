@@ -34,7 +34,8 @@ class Apps extends Component {
         const text = {
             'display': 'flex',
             'textAlign': 'center',
-            'justifyContent': 'center'
+            'justifyContent': 'center',
+            'color':'#949CA4'
         }
         return (
             <section>

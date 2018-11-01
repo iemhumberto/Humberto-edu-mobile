@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import '../../App.css';
 /*Import de Data tools*/
 import data from '../Requests/ToolsEst';
@@ -8,6 +7,9 @@ const IntroImage = 'https://res.cloudinary.com/cristiansam/image/upload/v1539343
         'ui/Herramientas-tareas-Humberto-Munoz-Ordonez.svg';
 const EstInsignia = 'https://res.cloudinary.com/cristiansam/image/upload/v1539346056/Mobile-Humberto-' +
         'ui/student.svg';
+
+const JorMa = 'https://trello.com/b/4pVhgD3b';
+const JorTar = 'https://trello.com/b/bNaFSIMW/';
 class Estudiante extends Component {
 
     tools() {
@@ -89,7 +91,7 @@ class Estudiante extends Component {
                     'justifyContent': 'center',
                     'alignSelf': 'center'
                 }}>
-                    <Link to="/agenda-mañana">
+                    <a href={JorMa}>
                         <div
                             style={{
                             'margin': 'auto',
@@ -98,8 +100,8 @@ class Estudiante extends Component {
                             className="button is-primary">
                             <p>Jornada Mañana</p>
                         </div>
-                    </Link>
-                    <Link to="/agenda-tarde">
+                    </a>
+                    <a href={JorTar}>
                         <div
                             style={{
                             'margin': 'auto'
@@ -107,7 +109,7 @@ class Estudiante extends Component {
                             className="button is-info">
                             <p>Jornada Tarde</p>
                         </div>
-                    </Link>
+                    </a>
                 </div>
                 <div className="column is mobile">
                     <div className="content has-text-centered">
